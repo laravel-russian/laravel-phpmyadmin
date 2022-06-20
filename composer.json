@@ -1,16 +1,17 @@
 {
-    "name": "laravel-russian/laravel-phpmyadmin",
-    "description": "PhpMyAdmin",
-    "autoload": {
-        "psr-4": {
-            "LaravelRussian\\LaravelPhpmyadmin\\": "src/"
-        }
-    },
-    "authors": [
-        {
-            "name": "Mike",
-            "email": "mltefive@gmail.com"
-        }
-    ],
-    "require": {}
+  "name": "laravel-russian/laravel-phpmyadmin",
+  "description": "PhpMyAdmin",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "LaravelRussian\\LaravelPhpmyadmin\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Mike",
+      "email": "mltefive@gmail.com"
+    }
+  ],
+  "require": {}
 }
