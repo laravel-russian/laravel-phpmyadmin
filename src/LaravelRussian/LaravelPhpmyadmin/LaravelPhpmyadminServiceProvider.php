@@ -52,9 +52,7 @@ class LaravelPhpmyadminServiceProvider extends ServiceProvider
         ], 'views');
 
         if (!$this->app->routesAreCached()) {
-            Route::group(['namespace' => 'LaravelRussian\LaravelPhpmyadmin\Http\Controllers'], function () {
-                require __DIR__ . '/Http/routes.php';
-            });
+            require __DIR__ . '/Http/routes.php';
         }
     }
 
