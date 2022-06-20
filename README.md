@@ -1,0 +1,1 @@
+# PhpMyAdmin integration for Laravel
