@@ -3,8 +3,15 @@
   "description": "PhpMyAdmin",
   "license": "MIT",
   "autoload": {
-    "psr-4": {
+    "psr-0": {
       "LaravelRussian\\LaravelPhpmyadmin\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "LaravelRussian\\LaravelPhpmyadmin\\LaravelPhpmyadminServiceProvider"
+      ]
     }
   },
   "authors": [
